@@ -6,7 +6,7 @@ These are settings for ESLint and Prettier used by Artemest.
 
 ## What it does
 
-This setup lints your JavaScript code based on practices. Check the [.eslintrc](https://github.com/artemest/eslint-config-artemest/blob/main/.eslintrc) file to see what is included. Feel free to override the rules that make sense for you.
+This setup lints your JavaScript code based on practices. Check the [.eslintrc.js](https://github.com/artemest/eslint-config-artemest/blob/main/.eslintrc.js) file to see what is included. Feel free to override the rules that make sense for you.
 
 ## Installing
 
