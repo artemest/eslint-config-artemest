@@ -1,7 +1,4 @@
 module.exports = {
-  parserOptions: {
-    project: './tsconfig.eslint.json',
-  },
   extends: [
     '@lasalefamine/eslint-config',
     '@lasalefamine/eslint-config/hooks',

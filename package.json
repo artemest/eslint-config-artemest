@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-artemest",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Our opinionated eslint configuration",
 	"main": "index.js",
 	"engines": {
@@ -21,6 +21,7 @@
 		"eslint-plugin-react-hooks": "^4.3.0",
 		"eslint-plugin-simple-import-sort": "^7.0.0",
 		"eslint-plugin-tailwindcss": "^3.4.4",
+		"@lasalefamine/eslint-config": "^1.2.1",
 		"prettier": "^2.5.1",
 		"typescript": "^4.5.5"
 	},

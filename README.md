@@ -14,7 +14,6 @@ This setup lints your JavaScript code based on practices. Check the [.eslintrc.j
 
 ```
 npm i -D eslint-config-artemest # or yarn install --dev eslint-config-artemest
-npx install-peerdeps --dev eslint-config-artemest
 ```
 
 2. You will see several dependencies were installed. Now, create (or update) a `.eslintrc` file with the following content:
