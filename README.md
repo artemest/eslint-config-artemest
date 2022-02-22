@@ -18,11 +18,32 @@ npm i -D eslint-config-artemest # or yarn install --dev eslint-config-artemest
 
 2. You will see several dependencies were installed. Now, create (or update) a `.eslintrc` file with the following content:
 
-```js
+```json
 {
-  'extends': [
-    'artemest'
-  ]
+	"extends": ["artemest"]
+}
+```
+
+### tsconfig.eslint.json
+
+If you're using Typescript, you should create a new `tsconfig.eslint.json` file in order to lint everything:
+
+```json
+{
+	"extends": "./tsconfig.json",
+	"exclude": ["node_modules"],
+	"include": ["**/*.js", "**/*.ts", "**/*.tsx"]
+}
+```
+
+And in your .eslintrc:
+
+```json
+{
+	"extends": ["artemest"],
+	"parserOptions": {
+		"project": "tsconfig.eslint.json"
+	}
 }
 ```
 
@@ -31,5 +52,3 @@ npm i -D eslint-config-artemest # or yarn install --dev eslint-config-artemest
 ---
 
 This repository is inspired by [eslint-config-leozera](https://github.com/leonardofaria/eslint-config-leozera), configurations are extended starting from [@lasalefamine/eslintc](https://github.com/LasaleFamine/eslintc).
-
-<!-- npm i -D eslint eslint-plugin-import eslint-plugin-simple-import-sort eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript eslint-plugin-jsx-a11y prettier eslint-plugin-prettier eslint-config-prettier -->
