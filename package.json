@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-artemest",
-	"version": "1.0.1",
+	"version": "1.0.3",
 	"description": "Our opinionated eslint configuration",
 	"main": "index.js",
 	"engines": {
