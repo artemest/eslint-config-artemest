@@ -15,6 +15,12 @@ module.exports = {
       },
     ],
     'tailwindcss/no-custom-classname': 'off',
+    'tailwindcss/classnames-order': [
+      'warn',
+      {
+        'officialSorting': true
+      }
+    ],
     'simple-import-sort/imports': 'off',
     'simple-import-sort/exports': 'off',
     'import/order': 'off',
